@@ -1,5 +1,7 @@
 process DRAGENA_IDAT2GTC {
     label 'process_low'
+    executor 'awsbatch'
+
 
     container "docker.io/kmhzamir/dragena:v1.2"
 
